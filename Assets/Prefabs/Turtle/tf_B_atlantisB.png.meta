@@ -1,0 +1,2569 @@
+fileFormatVersion: 2
+guid: 7a25e4884bf44451aaba50dd399b26fe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tf_B_atlantisB_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 240
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53df5eca341c043f5b3333df16da60be
+      internalID: -1678877550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 735
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f0bde0c898a43cf91645c8a0f1816f
+      internalID: -489748132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 732
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1b6e642ac00490dbf9f2565f895ae5
+      internalID: -779669781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 720
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546c888e02bf941d8b5d75059bc42ec3
+      internalID: 1788367784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_4
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 681
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66860055c38d741a19b911837e345095
+      internalID: -1553951912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_5
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 675
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdda800e5fe3423e9eee8c9c0e8bd94
+      internalID: 188216463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 720
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6f0adc44665456d8311d7f13c0ab9d
+      internalID: -198125677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_7
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 723
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c5348cf4f3347a98d0381847bf89ff
+      internalID: 960771535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_8
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 723
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfba483f75c4648e497e65a6a4210ddd
+      internalID: -994780688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 642
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7b7697d63994cffb86f681170cdf4a
+      internalID: -741251165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 630
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e264007683d9f445c8072b7f532e92d0
+      internalID: 1356595303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 636
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d32ff32379248629076c6f0c9d8e8e
+      internalID: -770491843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 627
+        width: 21
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343598080552b4992baeeba7b701bfbc
+      internalID: -729383970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_13
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 627
+        width: 24
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2efc960d7294dd8a35c126490e77d3
+      internalID: -1832535534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 630
+        width: 18
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ac90190bea349a28b10e694bb1e330
+      internalID: -1751936084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_15
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 627
+        width: 36
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6561eb77fa3f5445fa13500789b35b60
+      internalID: 1441465458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_16
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 672
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4738d34ff8bd84bd7a61724ba08d6922
+      internalID: 1818991522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_17
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 672
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14602bbf3dd46495c96d5e1786d95724
+      internalID: 1609051706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_18
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 675
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a498d68298c42f797e874de640f045
+      internalID: -1411718284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_19
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 678
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5693b716f3ef4d219a0ce011afac13a
+      internalID: 1029683020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 627
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e0f3243025a4761b54907418033869
+      internalID: -511462830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_21
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 630
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f562f797e3388411fb32f0ce57d8c0dc
+      internalID: 328136523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_22
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 627
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24161dbd95d6f4354ac7a288039c389f
+      internalID: 985672599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_23
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 627
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09af634adc6244a984dcdf841ae89c5
+      internalID: 1275015378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_24
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 639
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8de1a7b1443349e7b36587ff453eb47
+      internalID: -1559839230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_25
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 624
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c6b7e24844e440d8399d3e90d3fb6d
+      internalID: -1904339905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_26
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 627
+        width: 87
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a3451a53412455b9759431234535ef
+      internalID: 647842883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_27
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 582
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e3d71bdc29d4952b55d3dd7064acf4
+      internalID: 174864327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_28
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 582
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9a7265dce184879805de9d8c49f220
+      internalID: 1638593882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 579
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ca0fbe9e60a4e7ea7c4261e13f126a
+      internalID: -677549056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_30
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 585
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dc7bb7e7c5144439d8696877158253
+      internalID: -817938297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 579
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5eeb4998a89e45b48361152504a0be3
+      internalID: -127539729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_32
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 579
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105d6ad65a24b4f9980581513cc01d6f
+      internalID: 1267434190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_33
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 534
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9f7b88617a141e19544743984d8a34
+      internalID: 1415106089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 531
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ff59bbd6b4f4d8f872154fa56817c9
+      internalID: 185814695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_35
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 543
+        width: 126
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3c7174449fb4231a34dcbd4bf82a57
+      internalID: -1019973212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_36
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 501
+        width: 57
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba511b11b99924ec7a7fa6d4ebf4d555
+      internalID: 1171017625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_37
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 498
+        width: 111
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ba350a05fff4cbebbd19bc67d69aad
+      internalID: 1803778615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 534
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af959220097a4e57a2dffdab3bedf6f
+      internalID: -1883466107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 531
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b7f70d3a43240ecadfbe5f600fc332
+      internalID: 1622798147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_40
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 537
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035d0dbf6fd5648be8481b228d1dfc74
+      internalID: -290473576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 552
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73424514600624aef9d734eb91ce2ae9
+      internalID: 598439527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_42
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 537
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8ed85c634bb4151b331b617b4501b9
+      internalID: 1865208027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_43
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 537
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f070ad0e36d4494817eee57985463f
+      internalID: 1249799931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_44
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 504
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd53438d48384fb29441fa0b30d1189
+      internalID: 727151964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_45
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 498
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0572c3d4cdd249c287e1a10a23e3a9a
+      internalID: -1972159933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_46
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 495
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78731ee6988634a38b3ab1ae22f0c825
+      internalID: 857739976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_47
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 489
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f436481771b4315b0909ab1353b8ba
+      internalID: 1001979690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_48
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 492
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37a54e8822014c63825c5d0d7b7d334
+      internalID: 360849973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_49
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 486
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183c7554d1a1b4a61a3619f7611a332a
+      internalID: -1600884693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_50
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 483
+        width: 87
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e802c385b6944198e15673bba3aaf9
+      internalID: -1653988920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_51
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 489
+        width: 117
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33d90f718e8747209ac41eb22d0623b
+      internalID: -1946983204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_52
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 489
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16b055b5832d4ac5aca26f8301ed9e9
+      internalID: -374985165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_53
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 441
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357304e8a69c142c79f90b14b86f6e49
+      internalID: 1030495453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_54
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 435
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3445c322882d24106a96826c3403a7de
+      internalID: 784176642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_55
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 435
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e3a16e2ee98438b9abf5319509b703
+      internalID: 412783953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_56
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 399
+        width: 87
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e97cba75cba45f1a15bc969934ef5b
+      internalID: -1606876243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_57
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 396
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2f92015843b4927920e29add0972a6
+      internalID: 1651925318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_58
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 390
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd767080d9d8543fca66523e1bbcea80
+      internalID: -1415876439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 144
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e15b9d57f8445819d77046680a2313
+      internalID: 821612972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_60
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 342
+        width: 33
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a37ba759451417da0c832d4887a750
+      internalID: 2127396395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 342
+        width: 48
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56c6db129bec42e791c7592bd5bf7ee
+      internalID: -368445460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_62
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 444
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ab89930c7b74932917b3d59969d4f2
+      internalID: 1938985811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_63
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 294
+        width: 90
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847ef7e47032f4f39a31918657180710
+      internalID: -1715608265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_64
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 393
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ae26f56f35a428b883deee74a0d2b0
+      internalID: -978998942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_65
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 393
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a707128f2aa144f28b4cd97455de3e79
+      internalID: 919589021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_66
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 393
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe6c2cc8570648d6ab0f78efc6ac5ae
+      internalID: 1456348725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_67
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 384
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3980c172dfc48168a8763f1021169c
+      internalID: 905389534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_68
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 342
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a11078efefc4406b31c5f3c672edc7
+      internalID: 1111703343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 339
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471e3094f176543c6afd1b6a7cb67321
+      internalID: -1616835710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_70
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 339
+        width: 87
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1caa4ceee754325896647eed73314c
+      internalID: -1554604103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_71
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 342
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d30db2b4513c40339921eed4cff43b0
+      internalID: 1968138990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_72
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 342
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bef591c713db405286752351368379d
+      internalID: -1310615520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_73
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 348
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183787eca48ed44e5953b16ef6a91b54
+      internalID: -1721425319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 339
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3e59b06178149309dfd76fd43d1710
+      internalID: -1250245224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3
+        width: 333
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 233, z: 188, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dbe1ed8ce6d4c6cbc7dfc0457a4b73
+      internalID: -202777422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_76
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 339
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3102f6891985445f4b738ecdc099bab7
+      internalID: 2129374046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_77
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 291
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b8bf94619084856ad7cf114bf8c6db
+      internalID: -1400642634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_78
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 255
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4843ffcdf6b5b46c394305af8fe234f3
+      internalID: 1266548324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_79
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 243
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d6a0831f5c2407f933ffc731f20fe5
+      internalID: 1471016207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 249
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68291288ad26f4d76b18522747dfb437
+      internalID: -1881032066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_81
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 249
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4150fbf0b7f3d461babd7a9d8fc87588
+      internalID: 1032317056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_82
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 249
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec86fe555f14429d9534a454a697a1a
+      internalID: 1471265195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_83
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 243
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21149635c06a4e54865fd437fbe89d6
+      internalID: -1928673643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_84
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 246
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cbaf1c86265434bbb95f13c10bef6b
+      internalID: -1397458483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_85
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 195
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfad1845785e46939f36128e6b3b61d
+      internalID: -2038539901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_86
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 159
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648d58d8df8db4a6fbd9b5daecf394b3
+      internalID: -654372602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_87
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 147
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0257df0630597442a8b4b0f0a2b734ba
+      internalID: -1127192509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_88
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 153
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746c29c8ec0d349ba921c63cf88a77c7
+      internalID: 1211209280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_89
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 153
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa743141df064566b4d26b059ea6736
+      internalID: -2003582838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_90
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 153
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc855fe146234df98d059f8eda51129
+      internalID: -996704256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_91
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 198
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd035432885b40d3b1d8190ffa28915
+      internalID: -1482988105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_92
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 147
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184e72dee8c5844cfaa0cf229faec6d0
+      internalID: -1160121071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_93
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 162
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c72ca6df869498e8985c2b117a66dc
+      internalID: -1912377133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_94
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 105
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4724ac09cb7cc4eb1bf7281924e4cc26
+      internalID: 350070519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_95
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 99
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938b87845a1794159abec45f8bc11c6a
+      internalID: 1364789101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_96
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027b24a7351ee4d0984fae965330d718
+      internalID: 764727795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_97
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 111
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00efc045510ca4013a097f95f953ab89
+      internalID: -1464834539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_98
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 105
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566accae0303a4cf9b92c8b29a81465a
+      internalID: -716455235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_99
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 102
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1185a0d764d9043c5bb6d31eedc190a9
+      internalID: 1217815484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_100
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 105
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c296c47a2c71440d0b76b96beb7195b5
+      internalID: -504829216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_101
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 102
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c73abcbe5b345c082776b59a21eb12
+      internalID: 1323342214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_102
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 105
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3315934d4c39d4c77a28c74243dfa90e
+      internalID: -1468675484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_103
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 54
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c34f9415eab437687c02a68faa45c5
+      internalID: 2064262271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_104
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 54
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ef565d94e434478aada68e87b34201
+      internalID: -819846842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_105
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 18
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1975fc4f2d9ca45c1b92a3a3dcc608fc
+      internalID: 1456194439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_106
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 18
+        width: 84
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621607919c4d04201bc228735845a55d
+      internalID: -1348912953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_107
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 18
+        width: 84
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db21e25b9464452a85f1d643c03bdce
+      internalID: 1129345862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_108
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3
+        width: 72
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377517806ab744f9297ca148b922c390
+      internalID: 1041366648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_109
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46814d05dfb5343668f4ff788563ab41
+      internalID: -1071711377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_atlantisB_110
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 6
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c7360f42a2b4749b81b339a828f90b
+      internalID: -1415508195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tf_B_atlantisB_0: -1678877550
+      tf_B_atlantisB_1: -489748132
+      tf_B_atlantisB_10: 1356595303
+      tf_B_atlantisB_100: -504829216
+      tf_B_atlantisB_101: 1323342214
+      tf_B_atlantisB_102: -1468675484
+      tf_B_atlantisB_103: 2064262271
+      tf_B_atlantisB_104: -819846842
+      tf_B_atlantisB_105: 1456194439
+      tf_B_atlantisB_106: -1348912953
+      tf_B_atlantisB_107: 1129345862
+      tf_B_atlantisB_108: 1041366648
+      tf_B_atlantisB_109: -1071711377
+      tf_B_atlantisB_11: -770491843
+      tf_B_atlantisB_110: -1415508195
+      tf_B_atlantisB_12: -729383970
+      tf_B_atlantisB_13: -1832535534
+      tf_B_atlantisB_14: -1751936084
+      tf_B_atlantisB_15: 1441465458
+      tf_B_atlantisB_16: 1818991522
+      tf_B_atlantisB_17: 1609051706
+      tf_B_atlantisB_18: -1411718284
+      tf_B_atlantisB_19: 1029683020
+      tf_B_atlantisB_2: -779669781
+      tf_B_atlantisB_20: -511462830
+      tf_B_atlantisB_21: 328136523
+      tf_B_atlantisB_22: 985672599
+      tf_B_atlantisB_23: 1275015378
+      tf_B_atlantisB_24: -1559839230
+      tf_B_atlantisB_25: -1904339905
+      tf_B_atlantisB_26: 647842883
+      tf_B_atlantisB_27: 174864327
+      tf_B_atlantisB_28: 1638593882
+      tf_B_atlantisB_29: -677549056
+      tf_B_atlantisB_3: 1788367784
+      tf_B_atlantisB_30: -817938297
+      tf_B_atlantisB_31: -127539729
+      tf_B_atlantisB_32: 1267434190
+      tf_B_atlantisB_33: 1415106089
+      tf_B_atlantisB_34: 185814695
+      tf_B_atlantisB_35: -1019973212
+      tf_B_atlantisB_36: 1171017625
+      tf_B_atlantisB_37: 1803778615
+      tf_B_atlantisB_38: -1883466107
+      tf_B_atlantisB_39: 1622798147
+      tf_B_atlantisB_4: -1553951912
+      tf_B_atlantisB_40: -290473576
+      tf_B_atlantisB_41: 598439527
+      tf_B_atlantisB_42: 1865208027
+      tf_B_atlantisB_43: 1249799931
+      tf_B_atlantisB_44: 727151964
+      tf_B_atlantisB_45: -1972159933
+      tf_B_atlantisB_46: 857739976
+      tf_B_atlantisB_47: 1001979690
+      tf_B_atlantisB_48: 360849973
+      tf_B_atlantisB_49: -1600884693
+      tf_B_atlantisB_5: 188216463
+      tf_B_atlantisB_50: -1653988920
+      tf_B_atlantisB_51: -1946983204
+      tf_B_atlantisB_52: -374985165
+      tf_B_atlantisB_53: 1030495453
+      tf_B_atlantisB_54: 784176642
+      tf_B_atlantisB_55: 412783953
+      tf_B_atlantisB_56: -1606876243
+      tf_B_atlantisB_57: 1651925318
+      tf_B_atlantisB_58: -1415876439
+      tf_B_atlantisB_59: 821612972
+      tf_B_atlantisB_6: -198125677
+      tf_B_atlantisB_60: 2127396395
+      tf_B_atlantisB_61: -368445460
+      tf_B_atlantisB_62: 1938985811
+      tf_B_atlantisB_63: -1715608265
+      tf_B_atlantisB_64: -978998942
+      tf_B_atlantisB_65: 919589021
+      tf_B_atlantisB_66: 1456348725
+      tf_B_atlantisB_67: 905389534
+      tf_B_atlantisB_68: 1111703343
+      tf_B_atlantisB_69: -1616835710
+      tf_B_atlantisB_7: 960771535
+      tf_B_atlantisB_70: -1554604103
+      tf_B_atlantisB_71: 1968138990
+      tf_B_atlantisB_72: -1310615520
+      tf_B_atlantisB_73: -1721425319
+      tf_B_atlantisB_74: -1250245224
+      tf_B_atlantisB_75: -202777422
+      tf_B_atlantisB_76: 2129374046
+      tf_B_atlantisB_77: -1400642634
+      tf_B_atlantisB_78: 1266548324
+      tf_B_atlantisB_79: 1471016207
+      tf_B_atlantisB_8: -994780688
+      tf_B_atlantisB_80: -1881032066
+      tf_B_atlantisB_81: 1032317056
+      tf_B_atlantisB_82: 1471265195
+      tf_B_atlantisB_83: -1928673643
+      tf_B_atlantisB_84: -1397458483
+      tf_B_atlantisB_85: -2038539901
+      tf_B_atlantisB_86: -654372602
+      tf_B_atlantisB_87: -1127192509
+      tf_B_atlantisB_88: 1211209280
+      tf_B_atlantisB_89: -2003582838
+      tf_B_atlantisB_9: -741251165
+      tf_B_atlantisB_90: -996704256
+      tf_B_atlantisB_91: -1482988105
+      tf_B_atlantisB_92: -1160121071
+      tf_B_atlantisB_93: -1912377133
+      tf_B_atlantisB_94: 350070519
+      tf_B_atlantisB_95: 1364789101
+      tf_B_atlantisB_96: 764727795
+      tf_B_atlantisB_97: -1464834539
+      tf_B_atlantisB_98: -716455235
+      tf_B_atlantisB_99: 1217815484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
