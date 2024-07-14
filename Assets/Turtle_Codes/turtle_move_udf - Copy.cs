@@ -23,7 +23,8 @@ public class turtle_move_udf : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate() 
     {
-        Vector2 nextVec = inputVec * speed * Time.fixedDeltaTime;
+        float speedMultiplier = 4.0f;
+        Vector2 nextVec = inputVec * speed * speedMultiplier * Time.fixedDeltaTime;
         rigid.MovePosition(rigid.position + nextVec);
     }
     void OnMove(InputValue value)
