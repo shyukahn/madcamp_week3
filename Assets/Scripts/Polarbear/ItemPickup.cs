@@ -5,10 +5,11 @@ using UnityEngine.InputSystem;
 
 public class ItemPickup : MonoBehaviour
 {
+    public Item item;    
     public GameObject interactionText;
     public InputAction PickupAction;
+    public Canvas inventoryCanvas;
     bool isPlayerInRange = false;
-
     
     // Start is called before the first frame update
     void Start()
@@ -42,8 +43,11 @@ public class ItemPickup : MonoBehaviour
 
     void PickupItem()
     {
-        Destroy(interactionText);
-        Destroy(gameObject);
-        interactionText.SetActive(false);
+        Inventory inventory = inventoryCanvas.GetComponent<Inventory>();
+        if (inventory != null) {
+            Destroy(interactionText);
+            Destroy(gameObject);
+            inventory.AddItem(item);
+        }
     }
 }
