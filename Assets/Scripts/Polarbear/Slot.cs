@@ -13,6 +13,5 @@ public class Slot : MonoBehaviour
         item = _item;
         itemImage.sprite = _item.itemImage;
         itemImage.gameObject.SetActive(true);
-        Debug.Log("Slot SetItem");
     }
 }

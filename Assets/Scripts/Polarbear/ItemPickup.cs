@@ -16,6 +16,7 @@ public class ItemPickup : MonoBehaviour
     {
         interactionText.SetActive(false);
         PickupAction.Enable();
+        GetComponent<SpriteRenderer>().sprite = item.itemImage;
     }
 
     // Update is called once per frame

@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f09fd3f914a4325448b3ee151c155bc2, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_Size: {x: 11, y: 18.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &5765547337691239174
@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0586e920876d9b438ec17d62bdacf98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item: {fileID: 0}
   interactionText: {fileID: 0}
   PickupAction:
     m_Name: Pickup
@@ -116,6 +117,7 @@ MonoBehaviour:
       m_Action: Pickup
       m_Flags: 0
     m_Flags: 0
+  inventoryCanvas: {fileID: 0}
 --- !u!61 &4505706376146915879
 BoxCollider2D:
   m_ObjectHideFlags: 0

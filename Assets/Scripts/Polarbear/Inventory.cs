@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    public Canvas EndCanvas;
+    public Canvas endCanvas;
+    public GameObject player;
     private Slot[] slots;
     private int maxSlots;
     private int currentSlots = 0;
@@ -23,6 +24,13 @@ public class Inventory : MonoBehaviour
             }
         }
     }
+
+    void ShowEndScreen()
+    {
+        endCanvas.gameObject.SetActive(true);
+        player.SetActive(false);
+    }
+
     
     // Start is called before the first frame update
     void Start()
@@ -33,7 +41,9 @@ public class Inventory : MonoBehaviour
 
     void Update() {
         if (isFull) {
-            EndCanvas.gameObject.SetActive(true);
+            ShowEndScreen();
+            // prevent [ShowEndScreen] from being called again
+            isFull = false;
         }
     }
 }
