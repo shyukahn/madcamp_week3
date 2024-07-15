@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Circuit2
   m_EditorClassIdentifier: 
   itemName: Circuit2
-  itemImage: {fileID: 21300000, guid: 8cd910e59eec5494eb1dc5db934e58eb, type: 3}
+  itemImage: {fileID: 21300000, guid: 7ea1a1c73afb547758c94f486b5d23c2, type: 3}
