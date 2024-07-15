@@ -4,14 +4,15 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-public class EndScreen : MonoBehaviour
+public class StartScreen : MonoBehaviour
 {
     public GameObject continueText;
-    public InputAction endAction;
+    public InputAction startAction;
+    public GameObject player;
     IEnumerator ShowContinueText()
     {
         yield return new WaitForSeconds(1.0f);
-        endAction.Enable();
+        startAction.Enable();
         while (true) {
             if (continueText.activeInHierarchy) {
                 continueText.SetActive(false);
@@ -30,9 +31,10 @@ public class EndScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (endAction.enabled && endAction.IsPressed()) {
+        if (startAction.enabled && startAction.IsPressed()) {
             StopAllCoroutines();
-            SceneManager.LoadScene("PolarbearEndingScene");
+            player.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
 }
