@@ -2277,6 +2277,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   continueText: {fileID: 1568779825}
+  endAction:
+    m_Name: End
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3f141b4d-642f-4811-bb98-6619757badf5
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: a06d0264-7d2a-4db1-b585-d991e695a7b2
+      m_Path: <Keyboard>/anyKey
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: End
+      m_Flags: 0
+    m_Flags: 0
 --- !u!4 &991627944 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8519778930250107530, guid: 4875fa1a6cfda074d82d265f120d6616, type: 3}
