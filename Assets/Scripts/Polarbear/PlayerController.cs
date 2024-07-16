@@ -10,7 +10,12 @@ public class PlayerController : MonoBehaviour
     Vector2 move;
     SpriteRenderer spriteRenderer;
     Animator animator;
-    
+    AudioSource audioSource;
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
+    }    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +23,7 @@ public class PlayerController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

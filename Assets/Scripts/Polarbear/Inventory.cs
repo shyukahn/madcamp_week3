@@ -28,7 +28,7 @@ public class Inventory : MonoBehaviour
     void ShowEndScreen()
     {
         endCanvas.gameObject.SetActive(true);
-        player.SetActive(false);
+        player.GetComponent<PlayerController>().MoveAction.Disable();
     }
 
     

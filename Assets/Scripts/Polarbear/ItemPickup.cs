@@ -9,7 +9,9 @@ public class ItemPickup : MonoBehaviour
     public GameObject interactionText;
     public InputAction PickupAction;
     public Canvas inventoryCanvas;
+    public AudioClip collectedClip;
     bool isPlayerInRange = false;
+    PlayerController player;
     
     // Start is called before the first frame update
     void Start()
@@ -29,7 +31,8 @@ public class ItemPickup : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.GetComponent<PlayerController>() != null) {
+        player = other.GetComponent<PlayerController>();
+        if (player != null) {
             interactionText.SetActive(true);
             isPlayerInRange = true;
         }
@@ -46,6 +49,7 @@ public class ItemPickup : MonoBehaviour
     {
         Inventory inventory = inventoryCanvas.GetComponent<Inventory>();
         if (inventory != null) {
+            player.PlaySound(collectedClip);
             Destroy(interactionText);
             Destroy(gameObject);
             inventory.AddItem(item);
