@@ -26,16 +26,21 @@ public class CowController : MonoBehaviour
         move = MoveAction.ReadValue<Vector2>();
     }
 
-    void FixedUpdate() {
-        Vector2 position = rigidbody2d.position + 3.0f * move * Time.deltaTime;
+    void FixedUpdate() 
+    {
+        Vector2 position = rigidbody2d.position + 4.0f * move * Time.deltaTime;
         rigidbody2d.MovePosition(position);
     }
 
-    void LateUpdate() {
+    void LateUpdate() 
+    {
         animator.SetFloat("Speed", move.magnitude);
         
         if (move.x != 0) {
             spriteRenderer.flipX = move.x > 0;
         }
+    }
+    void OnTriggerEnter2D(Collider2D other) {
+        Destroy(other.gameObject);
     }
 }
