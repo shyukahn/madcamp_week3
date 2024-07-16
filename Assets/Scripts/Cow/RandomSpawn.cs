@@ -5,8 +5,15 @@ using UnityEngine;
 public class RandomSpawn : MonoBehaviour
 {
     public GameObject rangeObject;
-    public GameObject foodItem;
+    public GameObject cereal1;
+    public GameObject cereal2;
+    public GameObject cereal3;
+    public GameObject cereal4;
+    public GameObject cereal5;
     BoxCollider2D rangeCollider;
+    GameObject[] cereals;
+    float spawnInterval = 1.0f;
+    float destroyInterval = 3.0f;
     Vector2 ReturnRandomPosition()
     {
         Vector2 originPosition = rangeObject.transform.position;
@@ -20,16 +27,23 @@ public class RandomSpawn : MonoBehaviour
         Vector2 spawnPosition = originPosition + randomPosition;
         return spawnPosition;
     }
+    IEnumerator SpawnCereal()
+    {
+        GameObject instantFood = Instantiate(cereals[Random.Range(0, 5)], ReturnRandomPosition(), Quaternion.identity);
+        yield return new WaitForSeconds(destroyInterval);
+        Destroy(instantFood);
+    }
     IEnumerator RandomSpawnCoroutine()
     {
         while (true)
         {
-            yield return new WaitForSeconds(1.0f);
-            GameObject instantFood = Instantiate(foodItem, ReturnRandomPosition(), Quaternion.identity);
+            yield return new WaitForSeconds(spawnInterval);
+            StartCoroutine(SpawnCereal());
         }
     }
     void Awake() {
         rangeCollider = rangeObject.GetComponent<BoxCollider2D>();
+        cereals = new GameObject[5]{cereal1, cereal2, cereal3, cereal4, cereal5};
     }
 
     // Start is called before the first frame update
