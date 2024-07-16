@@ -37,6 +37,7 @@ public class CowStartScreen : MonoBehaviour
             gameManager.SetActive(true);
             player.SetActive(true);
             gameObject.SetActive(false);
+            startAction.Disable();
         }
     }
 }

@@ -35,6 +35,7 @@ public class StartScreen : MonoBehaviour
             StopAllCoroutines();
             player.SetActive(true);
             gameObject.SetActive(false);
+            startAction.Disable();
         }
     }
 }
