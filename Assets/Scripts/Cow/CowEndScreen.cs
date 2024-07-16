@@ -32,7 +32,7 @@ public class CowEndScreen : MonoBehaviour
     {
         if (endAction.enabled && endAction.IsPressed()) {
             StopAllCoroutines();
-            SceneManager.LoadScene("PolarbearEndingScene");
+            SceneManager.LoadScene("CowSceneEnding");
         }
     }
 }
