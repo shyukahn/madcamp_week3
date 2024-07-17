@@ -134,7 +134,7 @@
 
 - **Windows**
 
-[What_on_Earth_windows.zip](https://drive.google.com/file/d/1tWJz4-g3Z87_Y3q-rieDIyMihXpu94sJ/view?usp=sharing)
+[What_on_Earth_windows.zip](https://drive.google.com/file/d/1qcCyG1u8j0yAViQ3eK7V3PkoX3_qEZ8Y/view?usp=sharing)
 
 - **MacOS**
 
