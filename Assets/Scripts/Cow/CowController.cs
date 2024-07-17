@@ -12,12 +12,14 @@ public class CowController : MonoBehaviour
     public GameObject profitAddText;
     public Canvas endCanvas;
     public GameObject gameManager;
+    public AudioClip itemGetClip;
     Rigidbody2D rigidbody2d;
     Vector2 move;
     SpriteRenderer spriteRenderer;
     Animator animator;
     int profit = 0;
     bool isClear = false;
+    AudioSource audioSource;
     IEnumerator AnimateText(TextMeshProUGUI textAdd)
     {
         textAdd.fontSize = 60;
@@ -28,7 +30,7 @@ public class CowController : MonoBehaviour
     void ShowEndScreen()
     {
         endCanvas.gameObject.SetActive(true);
-        gameObject.SetActive(false);
+        MoveAction.Disable();
         gameManager.SetActive(false);
     }
     // Start is called before the first frame update
@@ -38,6 +40,7 @@ public class CowController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -70,6 +73,7 @@ public class CowController : MonoBehaviour
         FoodItem foodItem = other.GetComponent<FoodItem>();
         if (foodItem != null)
         {
+            audioSource.PlayOneShot(itemGetClip);
             profit += foodItem.cost;
             profitText.GetComponent<TextMeshProUGUI>().text = $"$ {profit}";
             TextMeshProUGUI textAdd = profitAddText.GetComponent<TextMeshProUGUI>();
