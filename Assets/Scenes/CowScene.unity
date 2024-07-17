@@ -4645,6 +4645,7 @@ MonoBehaviour:
   endCanvas: {fileID: 1790852275}
   gameManager: {fileID: 1528791536}
   itemGetClip: {fileID: 8300000, guid: a47ca32cd361c224dbd326492522b258, type: 3}
+  walk: {fileID: 8300000, guid: 2957cbaa035f948309c7312afcfa4dfe, type: 3}
 --- !u!95 &1804075853
 Animator:
   serializedVersion: 5
@@ -4680,7 +4681,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

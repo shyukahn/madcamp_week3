@@ -8,7 +8,6 @@ public class TurtleController : MonoBehaviour
 {
     public Vector2 inputVec;
     public float speed;
-
     public AudioClip swim;
     public AudioClip eatItem;
     private bool isSwimAudioPlaying = false;
