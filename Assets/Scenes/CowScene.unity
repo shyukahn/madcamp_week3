@@ -4727,7 +4727,7 @@ MonoBehaviour:
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
-    - m_Name: 2D Vector
+    - m_Name: WASD
       m_Id: 150562b1-b030-41aa-a1c6-03d6c80a44c6
       m_Path: 2DVector
       m_Interactions: 
@@ -4762,6 +4762,46 @@ MonoBehaviour:
     - m_Name: right
       m_Id: 889cbf19-9c1e-46c9-8b05-1efd05e080b0
       m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: ArrowKeys
+      m_Id: dfb55bca-1ce4-48c1-bbe0-a34c7b070484
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: up
+      m_Id: d663e9c2-3168-417a-af2d-d81ab433b641
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 7e85d4f3-602b-4b61-b3ea-2c7d675b728a
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 5f921e63-90fd-4143-8081-9b757b665bf0
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 85649709-bae0-46c9-b52c-c386a8741d11
+      m_Path: <Keyboard>/rightArrow
       m_Interactions: 
       m_Processors: 
       m_Groups: 
