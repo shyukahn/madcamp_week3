@@ -8,6 +8,11 @@ public class TurtleController : MonoBehaviour
 {
     public Vector2 inputVec;
     public float speed;
+
+    public AudioClip swim;
+    public AudioClip eatItem;
+    private bool isSwimAudioPlaying = false;
+    private AudioSource audioSource;
     Rigidbody2D rigid;
     SpriteRenderer spriter;
     Animator anim;
@@ -18,6 +23,8 @@ public class TurtleController : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         spriter = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        audioSource = gameObject.GetComponent<AudioSource>();
+        audioSource.loop = true;
     }
 
     // Update is called once per frame
@@ -42,6 +49,24 @@ public class TurtleController : MonoBehaviour
 
         if (Input.GetKeyDown(key)) {
             anim.SetTrigger("Eat");
+            audioSource.PlayOneShot(eatItem);
+            //AudioSource.PlayClipAtPoint(eatItem, Camera.main.transform.position);
         }
+
+        bool isSwimming = IsAnimationPlaying("turtle_swim");
+        if (isSwimming && !isSwimAudioPlaying) {
+            audioSource.clip = swim;
+            audioSource.Play();
+            isSwimAudioPlaying = true;
+        } else if (!isSwimming && isSwimAudioPlaying) {
+            audioSource.Stop();
+            isSwimAudioPlaying = false;
+        }
+    }
+
+    bool IsAnimationPlaying (string animationName)
+    {
+        AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
+        return stateInfo.IsName(animationName);
     }
 }
