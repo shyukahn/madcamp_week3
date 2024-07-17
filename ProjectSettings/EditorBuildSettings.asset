@@ -6,6 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Home Scene.unity
+    guid: a6a37abbc04dd4c2ba2c18b62e96cd07
+  - enabled: 1
+    path: Assets/Scenes/PolarbearScene.unity
+    guid: fa4999c315cece04ea0c4e70a39e3697
+  - enabled: 1
+    path: Assets/Scenes/PolarbearEndingScene.unity
+    guid: b1756e7c0f3cc85459fb121052ea801e
+  - enabled: 1
+    path: Assets/Scenes/CowSceneEnding.unity
+    guid: 97f94c0afc013c24298d112cca892cfa
+  - enabled: 1
+    path: Assets/Scenes/CowScene.unity
+    guid: 46003b3fd654b184a876689a1838817e
+  - enabled: 1
+    path: Assets/Scenes/TurtleEnding.unity
+    guid: e916e43d4258443cfb813325e02811c4
+  - enabled: 1
+    path: Assets/Scenes/StageSelectScene.unity
+    guid: b26e235067d6740b8862c1bf24b6febb
+  - enabled: 1
+    path: Assets/Scenes/Turtle.unity
+    guid: 11d462352c8e0481995d3755c06dd774
+  - enabled: 1
+    path: Assets/Scenes/HowToPlayScene.unity
+    guid: 90b8125c8c8d0c04582e72635a858b9c
   m_configObjects: {}
