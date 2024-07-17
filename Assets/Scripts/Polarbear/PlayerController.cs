@@ -6,6 +6,9 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public InputAction MoveAction;
+    public AudioClip walk;
+    private bool isWalkAudioPlaying = false;
+
     Rigidbody2D rigidbody2d;
     Vector2 move;
     SpriteRenderer spriteRenderer;
@@ -43,5 +46,19 @@ public class PlayerController : MonoBehaviour
         if (move.x != 0) {
             spriteRenderer.flipX = move.x < 0;
         }
+        bool isWalking = IsAnimationPlaying("Player_Run");
+        if (isWalking && !isWalkAudioPlaying) {
+            audioSource.clip = walk;
+            audioSource.Play();
+            isWalkAudioPlaying = true;
+        } else if (!isWalking && isWalkAudioPlaying) {
+            audioSource.Stop();
+            isWalkAudioPlaying = false;
+        }
+    }
+    bool IsAnimationPlaying (string animationName)
+    {
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        return stateInfo.IsName(animationName);
     }
 }

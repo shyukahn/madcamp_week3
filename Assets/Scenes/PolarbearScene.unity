@@ -1228,6 +1228,7 @@ MonoBehaviour:
       m_Action: Move
       m_Flags: 8
     m_Flags: 0
+  walk: {fileID: 8300000, guid: 272257844977d45869ed6249fa53cdab, type: 3}
 --- !u!50 &569910129
 Rigidbody2D:
   serializedVersion: 4
@@ -1335,7 +1336,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
